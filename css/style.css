@@ -5,6 +5,10 @@
   max-width: 940px;
   margin: 0 auto;
 }
+.header-links li {
+  display: inline-block;
+  margin-left: 10px;
+}
 
 .header-logo {
   margin-right: 100px; /* Adjust this value to create more or less space between the name and the navigation links */
