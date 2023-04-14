@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-wrapper">
+        <div class="header-logo">
+          <h1><a href="{{ url_for('index') }}">Sachin Tripathi</a></h1>
+        </div>
+        <nav>
+            <ul>
+              <li><a href="{{ url_for('index') }}">Home</a></li>
+              <li><a href="{{ url_for('blog') }}">Blog</a></li>
+              <li><a href="{{ url_for('projects') }}">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="line"></div>
+    <main>
+        <h1>Projects</h1>
+        <ul>
+            <li><a href="#">Project Title</a></li>
+            <li><a href="#">Project Title</a></li>
+            <li><a href="#">Project Title</a></li>
+        </ul>
+    </main>
+    <div class="line"></div>
+    <footer>
+        <img src="path/to/photo.jpg" alt="Your Photo">
+        <p>my_name | Contact Information</p>
+    </footer>
+</body>
+</html>

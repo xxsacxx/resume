@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Your header content here -->
+    <header>
+      <div class="header-wrapper">
+          <div class="header-logo">
+            <h1><a href="{{ url_for('index') }}">Sachin Tripathi</a></h1>
+          </div>
+          <nav>
+              <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('blog') }}">Blog</a></li>
+                <li><a href="{{ url_for('projects') }}">Projects</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <div class="line"></div>
+  
+    <main>
+        <h1>About</h1>
+        <p>
+            This is the About page. Add your personal information, background, and other relevant details.
+        </p>
+    </main>
+    
+    <!-- Your footer content here -->
+    <div class="line"></div>
+    <footer>
+      <img src="path/to/photo.jpg" alt="Your Photo">
+      <p>my_name | Contact Information</p>
+  </footer>
+</body>
+</html>
